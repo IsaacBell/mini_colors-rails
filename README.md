@@ -1,7 +1,7 @@
 # MiniColors for Rails
 
 [jQuery.MiniColors.js](https://github.com/claviska/jquery-miniColors) for
-Rails 3.1+
+Rails 4.0+
 
 ## Getting started
 

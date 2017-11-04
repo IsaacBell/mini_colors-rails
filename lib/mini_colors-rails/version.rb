@@ -1,5 +1,5 @@
 module MiniColors
   module Rails
-    VERSION = "1.0.5"
+    VERSION = "1.1"
   end
 end

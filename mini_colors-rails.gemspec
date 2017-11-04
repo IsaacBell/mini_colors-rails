@@ -2,10 +2,10 @@
 require File.expand_path('../lib/mini_colors-rails/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Simon COURTOIS"]
-  gem.email         = ["scourtois@cubyx.fr"]
-  gem.summary       = %q{jQuery miniColors for Rails 3.1+}
-  gem.homepage      = "https://github.com/simonc/mini_colors-rails"
+  gem.authors       = ["Simon COURTOIS", "Isaac Bell"]
+  gem.email         = ["isaacbell388@gmail.com"]
+  gem.summary       = %q{jQuery miniColors for Rails 4.0+}
+  gem.homepage      = "https://github.com/IsaacBell/mini_colors-rails"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
@@ -14,5 +14,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = MiniColors::Rails::VERSION
 
-  gem.add_dependency "railties", "~> 3.1"
+  gem.add_dependency "railties", ">= 4.0"
+  gem.add_development_dependency "rspec"
 end
